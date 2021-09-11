@@ -10,7 +10,7 @@ The StudyBuddy application is a student's best friend, with the goal of helping 
 2. Tanner;
    - Add 
 3. Alexander;
-   - Add
+   - SHOWING SOMETHING
 
 ## User Stories:
 ### Auston's section User Stories;
