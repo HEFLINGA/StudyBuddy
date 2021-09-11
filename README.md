@@ -21,9 +21,9 @@ The StudyBuddy application is a student's best friend, with the goal of helping 
 3. As a student, I want to be able to sort my task list assignments by due date, so that I can see which assignments are currently most pressing
    - Weight; 2 (10hrs)
 ### Tanner's section User Stories;
-1. Add
-2. Add
-3. Add
+1. As a student I want to be able to create an account and login, so I can use the application
+2. As a student I want to be able to update my account information, so I can have the correct information on file
+3. As a student I want to have my information be encrypted well, so I do not have to worry about my personal information being leaked.
 ### Alexander's section User Stories;
 1. Add
 2. Add
