@@ -30,7 +30,7 @@ The StudyBuddy application is a student's best friend, with the goal of helping 
 ### Alexander's section User Stories;
 1. As a student I want to be able to add assignments to my classes, so that I can track my assignments.
    - Weight; 1 (5hrs)
-2. As a student I want to be able to add a class to my schedule along with its sylabus so that I can keep up with it easily.
+2. As a student I want to be able to add a class to my schedule along with its syllabus so that I can keep up with it easily.
    -Weight; 2 (10 hrs)
-4. As a student I want to be able to see what grade I need to get on upcoming assingments in order to maintain a specific letter grade.
+4. As a student I want to be able to see what grade I need to get on upcoming assignments in order to maintain a specific letter grade.
    -Weight; 3 (15 hrs)
