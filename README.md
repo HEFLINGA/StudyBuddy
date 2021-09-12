@@ -8,7 +8,7 @@ The StudyBuddy application is a student's best friend, with the goal of helping 
 1. Auston;
    - Visualization for assignments/classes, and upcoming task viewing/sorting
 2. Tanner;
-   - Add 
+   - Login page 
 3. Alexander;
    - Assignments screen and class creation/customization
 
