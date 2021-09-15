@@ -35,3 +35,4 @@ The StudyBuddy application is a student's best friend, with the goal of helping 
 4. As a student I want to be able to see what grade I need to get on upcoming assignments in order to maintain a specific letter grade.
    -Weight; 3 (15 hrs)
 I can commit.
+I commit again.
