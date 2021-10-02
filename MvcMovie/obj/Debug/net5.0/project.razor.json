@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcMovie\\Views\\Assignment\\Index.cshtml",
+      "TargetPath": "Views\\Assignment\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcMovie\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -15631,6 +15636,11 @@
     {
       "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcMovie\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcMovie\\Views\\Assignment\\Welcome.cshtml",
+      "TargetPath": "Views\\Assignment\\Welcome.cshtml",
       "FileKind": "mvc"
     },
     {

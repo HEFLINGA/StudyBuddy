@@ -38,3 +38,5 @@ C:\Users\aheib\source\repos\StudyBuddy\MvcMovie\obj\Debug\net5.0\ref\MvcMovie.dl
 C:\Users\aheib\source\repos\StudyBuddy\MvcMovie\obj\Debug\net5.0\MvcMovie.pdb
 C:\Users\aheib\source\repos\StudyBuddy\MvcMovie\obj\Debug\net5.0\MvcMovie.genruntimeconfig.cache
 C:\Users\aheib\source\repos\StudyBuddy\MvcMovie\obj\Debug\net5.0\MvcMovie.csproj.CopyComplete
+C:\Users\aheib\source\repos\StudyBuddy\MvcMovie\obj\Debug\net5.0\Razor\Views\Assignment\Index.cshtml.g.cs
+C:\Users\aheib\source\repos\StudyBuddy\MvcMovie\obj\Debug\net5.0\Razor\Views\Assignment\Welcome.cshtml.g.cs
