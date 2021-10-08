@@ -15619,6 +15619,11 @@
   "RootNamespace": "MvcStudyBuddy",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\AssignmentList\\Delete.cshtml",
+      "TargetPath": "Views\\AssignmentList\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15631,6 +15636,16 @@
     {
       "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\AssignmentList\\Edit.cshtml",
+      "TargetPath": "Views\\AssignmentList\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\AssignmentList\\Create.cshtml",
+      "TargetPath": "Views\\AssignmentList\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15649,6 +15664,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\AssignmentList\\Details.cshtml",
+      "TargetPath": "Views\\AssignmentList\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15656,6 +15676,11 @@
     {
       "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\AssignmentList\\Index.cshtml",
+      "TargetPath": "Views\\AssignmentList\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
