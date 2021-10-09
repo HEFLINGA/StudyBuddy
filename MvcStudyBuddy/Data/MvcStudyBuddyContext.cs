@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using MvcStudyBuddy.Models;
 
-    public class MvcStudyBuddyContext : DbContext
+namespace MvcStudyBuddy.Data
+{
+   public class MvcStudyBuddyContext : DbContext
     {
         public MvcStudyBuddyContext (DbContextOptions<MvcStudyBuddyContext> options)
             : base(options)
@@ -13,4 +15,6 @@ using MvcStudyBuddy.Models;
         }
 
         public DbSet<MvcStudyBuddy.Models.Assignment> Assignment { get; set; }
-    }
+    } 
+}
+    
