@@ -26,20 +26,9 @@ namespace MvcLogin
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddControllersWithViews();
-
+        
         services.AddDbContext<MvcAccountContext>(options =>
-        {
-            var connectionString = Configuration.GetConnectionString("MvcAccountContext");
-
-            if (Environment.IsDevelopment())
-            {
-                options.UseSqlite(connectionString);
-            }
-            else
-            {
-                options.UseSqlServer(connectionString);
-            }
-        });
+        options.UseSqlite(Configuration.GetConnectionString("MvcAccountContext")));
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
