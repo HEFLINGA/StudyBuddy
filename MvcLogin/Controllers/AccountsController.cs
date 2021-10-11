@@ -18,18 +18,34 @@ namespace MvcLogin.Controllers
             _context = context;
         }
 
-        // GET: Accounts
-        public async Task<IActionResult> Index(string searchString)
+       // GET: Movies
+        public async Task<IActionResult> Index(string accountEmail, string searchString)
         {
-            var accounts = from a in _context.Account
-                 select a;
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from a in _context.Account
+                                            orderby a.Email
+                                            select a.Email;
 
-            if (!String.IsNullOrEmpty(searchString))
+            var accounts = from a in _context.Account
+                        select a;
+
+            if (!string.IsNullOrEmpty(searchString))
             {
                 accounts = accounts.Where(s => s.Name.Contains(searchString));
             }
 
-            return View(await accounts.ToListAsync());
+            if (!string.IsNullOrEmpty(accountEmail))
+            {
+                accounts = accounts.Where(x => x.Email.Contains(accountEmail));
+            }
+
+            var accountEmailVM = new AccountEmailViewModel
+            {
+                Emails = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Accounts = await accounts.ToListAsync()
+            };
+
+            return View(accountEmailVM);
         }
 
         // GET: Accounts/Details/5
