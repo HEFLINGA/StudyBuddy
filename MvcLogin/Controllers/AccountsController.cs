@@ -19,9 +19,17 @@ namespace MvcLogin.Controllers
         }
 
         // GET: Accounts
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Account.ToListAsync());
+            var accounts = from a in _context.Account
+                 select a;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                accounts = accounts.Where(s => s.Name.Contains(searchString));
+            }
+
+            return View(await accounts.ToListAsync());
         }
 
         // GET: Accounts/Details/5
