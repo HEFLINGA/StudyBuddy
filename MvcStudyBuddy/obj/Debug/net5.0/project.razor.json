@@ -15619,18 +15619,18 @@
   "RootNamespace": "MvcStudyBuddy",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\AssignmentList\\Delete.cshtml",
-      "TargetPath": "Views\\AssignmentList\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Assignment\\Welcome.cshtml",
-      "TargetPath": "Views\\Assignment\\Welcome.cshtml",
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Assignments\\Delete.cshtml",
+      "TargetPath": "Views\\Assignments\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Assignments\\Create.cshtml",
+      "TargetPath": "Views\\Assignments\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15639,18 +15639,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\AssignmentList\\Edit.cshtml",
-      "TargetPath": "Views\\AssignmentList\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\AssignmentList\\Create.cshtml",
-      "TargetPath": "Views\\AssignmentList\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Assignments\\Details.cshtml",
+      "TargetPath": "Views\\Assignments\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15664,11 +15659,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\AssignmentList\\Details.cshtml",
-      "TargetPath": "Views\\AssignmentList\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15679,13 +15669,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\AssignmentList\\Index.cshtml",
-      "TargetPath": "Views\\AssignmentList\\Index.cshtml",
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Assignments\\Index.cshtml",
+      "TargetPath": "Views\\Assignments\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Assignment\\Index.cshtml",
-      "TargetPath": "Views\\Assignment\\Index.cshtml",
+      "FilePath": "c:\\Users\\aheib\\source\\repos\\StudyBuddy\\MvcStudyBuddy\\Views\\Assignments\\Edit.cshtml",
+      "TargetPath": "Views\\Assignments\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],
