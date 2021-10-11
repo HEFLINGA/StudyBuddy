@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\Accounts\\Delete.cshtml",
+      "TargetPath": "Views\\Accounts\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15649,6 +15654,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\Accounts\\Details.cshtml",
+      "TargetPath": "Views\\Accounts\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15661,6 +15671,21 @@
     {
       "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\HelloWorld\\Index.cshtml",
       "TargetPath": "Views\\HelloWorld\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\Accounts\\Create.cshtml",
+      "TargetPath": "Views\\Accounts\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\Accounts\\Index.cshtml",
+      "TargetPath": "Views\\Accounts\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\Accounts\\Edit.cshtml",
+      "TargetPath": "Views\\Accounts\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],
