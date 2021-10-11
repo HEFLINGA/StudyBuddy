@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\HelloWorld\\Welcome.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15651,6 +15656,11 @@
     {
       "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\visual_studio_code_projects\\csci_490_project\\StudyBuddy\\MvcLogin\\Views\\HelloWorld\\Index.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
