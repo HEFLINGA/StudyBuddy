@@ -12,9 +12,11 @@ namespace MvcStudyBuddy.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
         [Required]
+        [Display(Name = "Task")]
         public string Name { get; set; }
         public string Description { get; set; }
         [Required]
+        [Display(Name = "Due Date")]
         [DataType(DataType.Date)]
         public DateTime DueDate { get; set; }
 
