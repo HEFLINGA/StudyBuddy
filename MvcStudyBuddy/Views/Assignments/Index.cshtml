@@ -4,14 +4,17 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>My Assignments: </h1>
+<h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Add assignment</a>
+    <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Class)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Title)
             </th>
@@ -33,6 +36,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Class)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Title)
             </td>

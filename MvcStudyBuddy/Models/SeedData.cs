@@ -23,6 +23,7 @@ namespace MvcStudyBuddy.Models
                     new Assignment
                     {
                         Title = "Homework 1",
+                        Class = "CSCI135",
                         DueDate = DateTime.Parse("2021-2-12"),
                         Type = "Homework",
                         Points = 20,
@@ -32,6 +33,7 @@ namespace MvcStudyBuddy.Models
                     new Assignment
                     {
                         Title = "Quiz 1",
+                        Class = "CSCI225",
                         DueDate = DateTime.Parse("2021-3-12"),
                         Type = "Quiz",
                         Points = 50,
