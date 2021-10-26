@@ -9,6 +9,7 @@ namespace MvcStudyBuddy.Models
         public string Title { get; set; }
         public string Type { get; set; }
 
+         [Display(Name = "Due Date")]
         [DataType(DataType.Date)]
         public DateTime DueDate { get; set; }
         public int Points { get; set; }
