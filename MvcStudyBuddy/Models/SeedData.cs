@@ -12,9 +12,13 @@ namespace MvcStudyBuddy.Models
             using (var context = new MvcStudyBuddyContext(
                 serviceProvider.GetRequiredService<
                     DbContextOptions<MvcStudyBuddyContext>>()))
+
+            using (var context2 = new MvcStudyBuddy2Context(
+                serviceProvider.GetRequiredService<
+                    DbContextOptions<MvcStudyBuddy2Context>>()))
             {
                 // Look for any movies.
-                if (context.Assignment.Any())
+                if (context.Assignment.Any() && context2.Course.Any())
                 {
                     return;   // DB has been seeded
                 }
@@ -41,6 +45,24 @@ namespace MvcStudyBuddy.Models
                     }
                 );
                 context.SaveChanges();
+                context2.Course.AddRange(
+                    new Course
+                    {
+                        Name = "CSCI225",
+                        total_points = 500,
+                        current_points = 0,
+                        Desc = "Intro to Relational Databases"
+                    },
+
+                    new Course
+                    {
+                        Name = "CSCI135",
+                        total_points = 500,
+                        current_points = 20,
+                        Desc = "Intro to Python"
+                    }
+                );
+                context2.SaveChanges();
             }
         }
     }

@@ -28,6 +28,9 @@ namespace MvcStudyBuddy
 
             services.AddDbContext<MvcStudyBuddyContext>(options =>
                     options.UseSqlite(Configuration.GetConnectionString("MvcStudyBuddyContext")));
+
+            services.AddDbContext<MvcStudyBuddy2Context>(options =>
+                    options.UseSqlite(Configuration.GetConnectionString("MvcStudyBuddy2Context")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
