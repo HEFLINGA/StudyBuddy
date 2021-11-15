@@ -51,6 +51,7 @@ namespace MvcStudyBuddy.Models
                         Name = "CSCI225",
                         total_points = 500,
                         current_points = 0,
+                        possible_points = 0,
                         Desc = "Intro to Relational Databases"
                     },
 
@@ -59,6 +60,7 @@ namespace MvcStudyBuddy.Models
                         Name = "CSCI135",
                         total_points = 500,
                         current_points = 20,
+                        possible_points = 20,
                         Desc = "Intro to Python"
                     }
                 );

@@ -53,7 +53,7 @@ namespace MvcStudyBuddy.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,total_points,current_points,Desc")] Course course)
+        public async Task<IActionResult> Create([Bind("Id,Name,total_points,current_points,possible_points,Desc")] Course course)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace MvcStudyBuddy.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,total_points,current_points,Desc")] Course course)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,total_points,current_points,possible_points,Desc")] Course course)
         {
             if (id != course.Id)
             {

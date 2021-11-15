@@ -11,6 +11,8 @@ namespace MvcStudyBuddy.Models
         public int total_points { get; set; }
         [Display(Name = "Current Points")]
         public int current_points { get; set; }
+        [Display(Name = "Possible Points")]
+        public int possible_points { get; set; }
         [Display(Name = "Description")]
         public string Desc { get; set; }
 
