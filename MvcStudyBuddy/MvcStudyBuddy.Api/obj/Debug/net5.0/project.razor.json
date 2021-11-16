@@ -15619,13 +15619,13 @@
   "RootNamespace": "MvcStudyBuddy.Api",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\austo\\source\\repos\\CSCI490\\StudyBuddy\\MvcStudyBuddy\\MvcStudyBuddy.Api\\Views\\Todos\\Edit.cshtml",
-      "TargetPath": "Views\\Todos\\Edit.cshtml",
+      "FilePath": "c:\\Users\\austo\\source\\repos\\CSCI490\\StudyBuddy\\MvcStudyBuddy\\MvcStudyBuddy.Api\\Views\\ToDos\\Edit.cshtml",
+      "TargetPath": "Views\\ToDos\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\austo\\source\\repos\\CSCI490\\StudyBuddy\\MvcStudyBuddy\\MvcStudyBuddy.Api\\Views\\Todos\\Details.cshtml",
-      "TargetPath": "Views\\Todos\\Details.cshtml",
+      "FilePath": "c:\\Users\\austo\\source\\repos\\CSCI490\\StudyBuddy\\MvcStudyBuddy\\MvcStudyBuddy.Api\\Views\\ToDos\\Details.cshtml",
+      "TargetPath": "Views\\ToDos\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15639,8 +15639,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\austo\\source\\repos\\CSCI490\\StudyBuddy\\MvcStudyBuddy\\MvcStudyBuddy.Api\\Views\\Todos\\Index.cshtml",
-      "TargetPath": "Views\\Todos\\Index.cshtml",
+      "FilePath": "c:\\Users\\austo\\source\\repos\\CSCI490\\StudyBuddy\\MvcStudyBuddy\\MvcStudyBuddy.Api\\Views\\ToDos\\Index.cshtml",
+      "TargetPath": "Views\\ToDos\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15649,8 +15649,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\austo\\source\\repos\\CSCI490\\StudyBuddy\\MvcStudyBuddy\\MvcStudyBuddy.Api\\Views\\Todos\\Delete.cshtml",
-      "TargetPath": "Views\\Todos\\Delete.cshtml",
+      "FilePath": "c:\\Users\\austo\\source\\repos\\CSCI490\\StudyBuddy\\MvcStudyBuddy\\MvcStudyBuddy.Api\\Views\\ToDos\\Delete.cshtml",
+      "TargetPath": "Views\\ToDos\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -10,22 +10,22 @@ using MvcStudyBuddy.Api.Models;
 
 namespace MvcStudyBuddy.Api.Controllers
 {
-    public class TodosController : Controller
+    public class ToDosController : Controller
     {
         private readonly MvcStudyBuddyContext _context;
 
-        public TodosController(MvcStudyBuddyContext context)
+        public ToDosController(MvcStudyBuddyContext context)
         {
             _context = context;
         }
 
-        // GET: Todos
+        // GET: ToDos
         public async Task<IActionResult> Index()
         {
             return View(await _context.Todo.ToListAsync());
         }
 
-        // GET: Todos/Details/5
+        // GET: ToDos/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -43,18 +43,18 @@ namespace MvcStudyBuddy.Api.Controllers
             return View(todo);
         }
 
-        // GET: Todos/Create
+        // GET: ToDos/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Todos/Create
+        // POST: ToDos/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ToDoId,Completed")] Todo todo)
+        public async Task<IActionResult> Create([Bind("ToDoId,AssignemntName,Completed")] Todo todo)
         {
             if (ModelState.IsValid)
             {
@@ -65,7 +65,7 @@ namespace MvcStudyBuddy.Api.Controllers
             return View(todo);
         }
 
-        // GET: Todos/Edit/5
+        // GET: ToDos/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -81,12 +81,12 @@ namespace MvcStudyBuddy.Api.Controllers
             return View(todo);
         }
 
-        // POST: Todos/Edit/5
+        // POST: ToDos/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ToDoId,Completed")] Todo todo)
+        public async Task<IActionResult> Edit(int id, [Bind("ToDoId,AssignemntName,Completed")] Todo todo)
         {
             if (id != todo.ToDoId)
             {
@@ -116,7 +116,7 @@ namespace MvcStudyBuddy.Api.Controllers
             return View(todo);
         }
 
-        // GET: Todos/Delete/5
+        // GET: ToDos/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -134,7 +134,7 @@ namespace MvcStudyBuddy.Api.Controllers
             return View(todo);
         }
 
-        // POST: Todos/Delete/5
+        // POST: ToDos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

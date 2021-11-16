@@ -165,11 +165,6 @@ C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\b
 C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\MvcStudyBuddy.Api.Views.pdb
 C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\MvcStudyBuddy.Api.csproj.CopyComplete
 C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\MvcStudyBuddy.Api.genruntimeconfig.cache
-C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\Todos\Create.cshtml.g.cs
-C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\Todos\Delete.cshtml.g.cs
-C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\Todos\Details.cshtml.g.cs
-C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\Todos\Edit.cshtml.g.cs
-C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\Todos\Index.cshtml.g.cs
 C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\Assignments\Create.cshtml.g.cs
 C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\Assignments\Delete.cshtml.g.cs
 C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\Assignments\Details.cshtml.g.cs
@@ -177,3 +172,8 @@ C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\o
 C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\Assignments\Index.cshtml.g.cs
 C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\bin\Debug\net5.0\Moq.dll
+C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\ToDos\Create.cshtml.g.cs
+C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\ToDos\Delete.cshtml.g.cs
+C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\ToDos\Details.cshtml.g.cs
+C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\ToDos\Edit.cshtml.g.cs
+C:\Users\austo\source\repos\CSCI490\StudyBuddy\MvcStudyBuddy\MvcStudyBuddy.Api\obj\Debug\net5.0\Razor\Views\ToDos\Index.cshtml.g.cs
