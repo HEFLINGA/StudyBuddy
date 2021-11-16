@@ -18,11 +18,29 @@ namespace MvcStudyBuddy.Api.Controllers
         {
             _context = context;
         }
-
         // GET: Assignments
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string sortOrder)
         {
-            return View(await _context.Assignment.ToListAsync());
+            ViewData["NameSortParam"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewData["DateSortParam"] = sortOrder == "Date" ? "date_desc" : "Date";
+            var assignments = from a in _context.Assignment
+                            select a;
+            switch (sortOrder) {
+                case "name_desc":
+                    assignments = assignments.OrderByDescending(a => a.Name);
+                    break;
+                case "Date":
+                    assignments = assignments.OrderBy(a => a.DueDate);
+                    break;
+                case "date_desc":
+                    assignments = assignments.OrderByDescending(a => a.DueDate);
+                    break;
+                default:
+                    assignments = assignments.OrderBy(a => a.Name);
+                    break;
+            }
+
+            return View(await assignments.AsNoTracking().ToListAsync());
         }
 
         // GET: Assignments/Details/5

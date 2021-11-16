@@ -8,7 +8,8 @@ namespace MvcStudyBuddy.Api.Models
     public class Todo
     {
         public int ToDoId { get; set; }
-        public Assignment AnAssignment { get; set; }
+        [Display(Name = "Assignment")]
+        public string AssignemntName { get; set; }
         public bool Completed { get; set; }
     }
 }

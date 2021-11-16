@@ -43,26 +43,15 @@ namespace MvcStudyBuddy.Api.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("AnAssignmentID")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("AssignemntName")
+                        .HasColumnType("TEXT");
 
                     b.Property<bool>("Completed")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("ToDoId");
 
-                    b.HasIndex("AnAssignmentID");
-
                     b.ToTable("Todo");
-                });
-
-            modelBuilder.Entity("MvcStudyBuddy.Api.Models.Todo", b =>
-                {
-                    b.HasOne("MvcStudyBuddy.Api.Models.Assignment", "AnAssignment")
-                        .WithMany()
-                        .HasForeignKey("AnAssignmentID");
-
-                    b.Navigation("AnAssignment");
                 });
 #pragma warning restore 612, 618
         }
